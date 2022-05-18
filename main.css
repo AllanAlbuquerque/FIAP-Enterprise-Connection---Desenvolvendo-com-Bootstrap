@@ -1,3 +1,9 @@
+/*--footer--*/
+.rodape{
+  height: 80px;
+}
+
+/*--  boostrap --*/
 :root {
   --blue: #425d9e; /*! Gulliver Paleta -- SAN MARINO */
   --green: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
