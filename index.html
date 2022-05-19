@@ -34,156 +34,31 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Início</a>
+            <a class="nav-link active" aria-current="page" href="#" onclick="navToInicio()">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O que fazer</a>
+            <a class="nav-link" href="#" onclick="navToFazer()">O que fazer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hospedagens</a>
+            <a class="nav-link" href="#" onclick="navToHospedagens()">Hospedagens</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Restaurantes</a>
+            <a class="nav-link" href="#" onclick="navToRestaurantes()">Restaurantes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="material-symbols-outlined">
+            <a class="nav-link" href="#" onclick="navToLogin()"><span class="material-symbols-outlined">
                 account_circle
               </span></a>
           </li>
         </ul>
       </div>
     </div>
-
   </nav>
 
-  <main class="container-xxl">
-    <section class="splide" aria-labelledby="carousel-heading">
-      <h2 id="carousel-heading">Splide Basic HTML Example</h2>
+  <main id="app" class="container-xxl"></main>
 
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 2</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 3</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 4</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 5</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 6</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 7</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 8</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title 9</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  
+
+
   <footer class="rodape mt-5 bg-primary d-flex  flex-column justify-content-center align-items-center">
     <p class="m-0 w-0">Projeto Gulliver | Todos os direitos reservados ©</p>
   </footer>
