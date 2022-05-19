@@ -1,18 +1,46 @@
+let view = 'inicio';
+
 document.addEventListener('DOMContentLoaded', function () {
-  const splide = new Splide('.splide', {
-    type: 'loop',
-    perPage: 6,
-    gap: '2%',
-    breakpoints: {
-      1366: {
-        gap: '1%',
-        perPage: 4,
-      },
-      768: {
-        gap: '1%',
-        perPage: 2,
-      },
-    },
-  });
-  splide.mount(window.splide.Extensions);
+  navToInicio();
 });
+
+function navToInicio() {
+  navigateTo('./views/inicio/inicio.html');
+}
+function navToFazer() {
+  navigateTo('./views/fazer/fazer.html');
+}
+function navToHospedagens() {
+  navigateTo('./views/hospedagens/hospedagens.html');
+}
+function navToRestaurantes() {
+  navigateTo('./views/restaurantes/restaurantes.html');
+}
+function navToLogin() {
+  navigateTo('./views/login/login.html');
+}
+
+function navigateTo(path, id = '') {
+  fetch(path)
+    .then((data) => {
+      return data.text();
+    })
+    .then((html) => {
+      const content = document.getElementById('app');
+      content.innerHTML = html;
+
+      const scripts = content.querySelectorAll('script');
+      for (var i = 0; i < scripts.length; i++) {
+        if (scripts[i].innerText) {
+          eval(scripts[i].innerText);
+        } else {
+          fetch(scripts[i].src).then(function (data) {
+            data.text().then(function (r) {
+              eval(r);
+            });
+          });
+        }
+        scripts[i].parentNode.removeChild(scripts[i]);
+      }
+    });
+}
