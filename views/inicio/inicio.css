@@ -5,6 +5,15 @@
   align-items: center;
 }
 
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  justify-content: start;
+  flex-direction: row-reverse;
+  column-gap: 2%;
+}
+
 .search-label {
   display: flex;
   justify-content: space-between;
