@@ -1,0 +1,38 @@
+.fazer_header {
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.form{
+   max-width: 750px;
+   width: 100%;
+}
+
+input{
+    height: 65px;
+}
+
+.local{
+    max-width: 450px;
+    width: 100%;
+}
+
+.date{
+    max-width: 200px;
+    width: 100%;
+}
+
+.btn_search{
+    width: 60px !important;
+    height: 50px !important;
+    background-color: var(--light);
+}
+
+.card{
+    max-width: 400px;
+    width: 100%;
+    
+}
