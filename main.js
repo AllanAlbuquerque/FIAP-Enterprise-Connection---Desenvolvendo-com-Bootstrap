@@ -1,23 +1,30 @@
 let view = 'inicio';
+const title = document.querySelector('title');
 
 document.addEventListener('DOMContentLoaded', function () {
   navToInicio();
 });
 
+
 function navToInicio() {
   navigateTo('./views/inicio/inicio.html');
+  title.text = ' Gulliver Traveller | inicio';
 }
 function navToFazer() {
   navigateTo('./views/fazer/fazer.html');
+  title.text = ' O que fazer | Gulliver Traveller';
 }
 function navToHospedagens() {
   navigateTo('./views/hospedagens/hospedagens.html');
+  title.text = ' Hospedagens | Gulliver Traveller';
 }
 function navToRestaurantes() {
   navigateTo('./views/restaurantes/restaurantes.html');
+  title.text = ' Restaurantes | Gulliver Traveller';
 }
 function navToLogin() {
   navigateTo('./views/login/login.html');
+  title.text = ' Login | Gulliver Traveller';
 }
 
 function navigateTo(path, id = '') {
