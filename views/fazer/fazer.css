@@ -6,33 +6,37 @@
     height: 300px;
 }
 
-.form{
-   max-width: 750px;
-   width: 100%;
+.form {
+    max-width: 750px;
+    width: 100%;
 }
 
-input{
+input {
     height: 65px;
 }
 
-.local{
+.local {
     max-width: 450px;
     width: 100%;
 }
 
-.date{
+.date {
     max-width: 200px;
     width: 100%;
 }
 
-.btn_search{
+.btn_search {
     width: 60px !important;
     height: 50px !important;
     background-color: var(--light);
 }
 
-.card{
+#entretenimento .card {
     max-width: 400px;
     width: 100%;
-    
+
+}
+
+.splide__slide .card .card-img {
+    height: 185px;
 }
