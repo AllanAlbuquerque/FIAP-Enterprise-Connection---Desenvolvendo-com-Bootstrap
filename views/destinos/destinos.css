@@ -1,0 +1,27 @@
+.desc-text {
+  width: 60%;
+}
+
+.destino-titulo {
+  font-size: 2.5rem;
+}
+
+.destino-desc {
+  font-size: 2rem;
+}
+
+.splide__slide .card .card-img {
+  height: 185px;
+}
+
+@media screen and (max-width: 1750px) {
+  .desc-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+    .description {
+      flex-direction: column;
+    }
+  }

@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
   navToInicio();
 });
 
-
 function navToInicio() {
   navigateTo('./views/inicio/inicio.html');
   title.text = ' Gulliver Traveller | inicio';
@@ -25,6 +24,10 @@ function navToRestaurantes() {
 function navToLogin() {
   navigateTo('./views/login/login.html');
   title.text = ' Login | Gulliver Traveller';
+}
+function navToDestino(id) {
+  navigateTo('./views/destinos/destinos.html', id);
+  title.text = ' Destinos | Gulliver Traveller';
 }
 
 function navigateTo(path, id = '') {
@@ -51,3 +54,13 @@ function navigateTo(path, id = '') {
       }
     });
 }
+
+const destinos = [
+  {
+    id: 'rj',
+    name: 'Rio de Janeiro - RJ',
+    title: 'Uma metrópole urbana movida pela cadência do samba',
+    description: `Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro. Imortalizada em uma canção, a praia de Ipanema continua sendo o lugar perfeito para caminhar,  pegar um bronzeado e se exibir.`,
+    imgDesc: './images/rj/img.jpg',
+  },
+];
