@@ -1,3 +1,7 @@
+.card {
+  cursor: pointer;
+}
+
 .inicio-header {
   background-color: var(--light);
   display: flex;

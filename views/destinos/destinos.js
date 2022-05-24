@@ -18,7 +18,7 @@ for (let i = 0; i < elms.length; i++) {
   }).mount();
 }
 
-const destino = destinos.filter((destino) => (destino.id = id))[0];
+const destino = destinos.filter((destino) => (destino.id == id))[0];
 
 document.getElementById('destino-nome').innerHTML = destino.name;
 document.getElementById('destino-titulo').innerHTML = destino.title;
