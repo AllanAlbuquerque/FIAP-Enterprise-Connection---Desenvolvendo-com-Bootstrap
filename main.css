@@ -15,6 +15,7 @@
   --bs-link-color: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
   --bs-link-hover-color: #27362d; /*! Gulliver Paleta -- SOMBRA PARA COLOR DARK-GREEN CYAN */
   --bs-primary-rgb: 202, 217, 195; /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
+  --btn-facebook:#4753BF;
 }
 
 /*! Bootstrap original values */

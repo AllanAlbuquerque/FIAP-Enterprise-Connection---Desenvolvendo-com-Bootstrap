@@ -1,0 +1,36 @@
+
+.login{
+    max-width: 500px;
+    width:100%;
+}
+
+.login input, button{
+    height: 50px;
+}   
+
+.login .summit{
+    background-color: var(--primary); 
+    color: #fff;
+}
+
+.login hr{
+    max-width: 225px;
+    width: 100%;
+}
+
+#btn-google{
+    background-image: url(../../images/icone_google.svg);
+    background-repeat: no-repeat;
+    max-width:500px;
+    background-position: 10px 50%;
+    background-color:white; 
+}
+
+#btn-facebook{
+    background-image: url(../../images/icone_facebook.svg);
+    background-repeat: no-repeat;
+    max-width:500px;
+    background-position: 8px 50%;
+    background-color: var(--btn-facebook); 
+    color: #fff;
+}
