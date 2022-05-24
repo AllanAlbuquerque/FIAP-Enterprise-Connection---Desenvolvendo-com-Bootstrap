@@ -6,7 +6,12 @@
   background-color: var(--light);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  background-image:  url(../../images/bg-inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
 }
 
 .form-floating > .form-control-plaintext ~ label,
@@ -26,4 +31,15 @@
 
 .form-floating {
   width: 20%;
+}
+
+@media screen and (max-width: 1300px) {
+  .form-floating {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form-floating {
+    width: 60%;
+  }
 }

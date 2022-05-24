@@ -1,7 +1,6 @@
 .desc-text {
-  width: 60%;
+  width: 100%;
 }
-
 .destino-titulo {
   font-size: 2.5rem;
 }
@@ -14,14 +13,8 @@
   height: 185px;
 }
 
-@media screen and (max-width: 1750px) {
-  .desc-text {
-    width: 100%;
+@media screen and (max-width: 1300px) {
+  .description {
+    flex-direction: column;
   }
 }
-
-@media screen and (max-width: 1300px) {
-    .description {
-      flex-direction: column;
-    }
-  }
