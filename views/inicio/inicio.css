@@ -8,10 +8,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image:  url(../../images/bg-inicio.jpg);
+  background-image:  url(../../images/Turismo1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
+  height: 72vh;
 }
 
 .form-floating > .form-control-plaintext ~ label,
@@ -31,6 +31,7 @@
 
 .form-floating {
   width: 20%;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -42,4 +43,18 @@
   .form-floating {
     width: 60%;
   }
+}
+
+h2 {
+  color: #2D97A1;
+  font-size: 28px;
+}
+
+h3 {
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-top: 1rem;
+  font-size: 40px;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #474747;
 }

@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 /*--footer--*/
 .rodape{
   height: 80px;
+}
+
+body {
+  background-color: #F7FDF9;
 }
 
 /*--  boostrap --*/
@@ -14,7 +20,7 @@
   --light: #edecd5; /*! Gulliver Paleta -- LIGHT SHADE OF YELLOW */
   --bs-link-color: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
   --bs-link-hover-color: #27362d; /*! Gulliver Paleta -- SOMBRA PARA COLOR DARK-GREEN CYAN */
-  --bs-primary-rgb: 202, 217, 195; /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
+  --bs-primary-rgb: 85, 118, 99; /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
   --btn-facebook:#4753BF;
 }
 
@@ -54,4 +60,27 @@
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.nav-link {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color:#365342;
+  transition: all 0.5s ease-out;
+  border-bottom: 1.5px solid #365342;
+  padding-bottom: 0.2rem;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+}
+
+footer {
+  color: #fff;
 }
