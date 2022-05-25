@@ -1,1 +1,119 @@
-<h1>Hospedagens</h1>
+<header class="hospedagem_header  d-flex justify-content-center align-items-center">
+  <form class="d-flex justify-content-between align-items-center form">
+
+    <input type="text" class="form-control local" placeholder="Onde você gostaria de se hospedar? *"
+      aria-label="Para onde você gostaria de ir? *" required>
+
+
+    <input type="date" class="form-control date" placeholder="Data" aria-label="Data" required>
+    <button class="border border-0 btn_search">
+      <img src="../../images/search.svg" alt="icone de search">
+    </button>
+
+  </form>
+</header>
+
+<nav aria-label="breadcrumb" class="mt-3 ms-5">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" onclick="navToInicio()">Início</a></li>
+    <li class="breadcrumb-item active" id="destino-nome" aria-current="page">Hospedagens</li>
+  </ol>
+</nav>
+
+<h2 class="mb-4 text-center" id="carousel-heading">MELHORES HOTÉIS DA REGIÃO</h2>
+
+
+<article class="hoteis-body">
+  <aside class="hotel-image">
+    <img src="../../images/hotel.jpg" alt="Hotel">
+  </aside>
+  <section class="container-xxl">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/fairmont.jpg" alt="img">
+            <h5 class="card-title">Fairmont Rio de Janeiro Copacabana</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$1.170 a diària
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/france.jpg" alt="img">
+            <h5 class="card-title">Hotel Colline de France</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Gramado</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$1.495 a diària
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/bravaria.jpg" alt="img">
+            <h5 class="card-title">Bravaria Sport Hotel</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Gramado</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$340 a diària
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/ort.jpg" alt="img">
+            <h5 class="card-title">Ort Hotel</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Campos do Jordão</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$1.255 a diària
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/hyatt.jpg" alt="img">
+            <h5 class="card-title">Grand Hyatt São Paulo</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">São Paulo</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$798 a diària
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/hoteis/miramar.jpg" alt="img">
+            <h5 class="card-title">Miramar Hotel by Windsor</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$567 a diària
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </section>
+</article>
+
+<link rel="stylesheet" href="./views/hospedagens/hospedagens.css">
+<script src="./views/hospedagens/hospedagens.js"></script>
