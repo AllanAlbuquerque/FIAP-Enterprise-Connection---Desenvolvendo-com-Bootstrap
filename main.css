@@ -70,11 +70,10 @@ body {
 }
 
 .nav-link:hover {
-  color:#365342;
+  color:#9dbdaa;
   transition: all 0.5s ease-out;
-  border-bottom: 1.5px solid #365342;
-  padding-bottom: 0.2rem;
 }
+
 
 h2 {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -82,5 +81,10 @@ h2 {
 }
 
 footer {
+  margin-top: 6rem !important;
   color: #fff;
+}
+
+h5 {
+  color: rgb(55, 55, 55);
 }

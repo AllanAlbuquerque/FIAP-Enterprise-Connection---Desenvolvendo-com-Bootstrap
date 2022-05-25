@@ -1,10 +1,13 @@
 .fazer_header {
-    background-color: var(--light);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 50vh;
+    background-image:  url(../../images/caiaque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .form {
     max-width: 750px;
@@ -28,7 +31,7 @@ input {
 .btn_search {
     width: 60px !important;
     height: 50px !important;
-    background-color: var(--light);
+    background-color: transparent;
 }
 
 #entretenimento .card {
@@ -40,3 +43,19 @@ input {
 .splide__slide .card .card-img {
     height: 185px;
 }
+
+
+h2 {
+    color: #2D97A1;
+    font-size: 26px;
+  }
+  
+  h3 {
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 1rem;
+    font-size: 35px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #474747;
+  }
+  
