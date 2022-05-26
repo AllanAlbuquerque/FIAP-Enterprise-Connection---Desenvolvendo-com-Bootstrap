@@ -78,3 +78,14 @@ h3 {
   font-weight: 800;
   text-shadow: 2px 2px 2px #474747;
 }
+
+@media screen and (max-width: 768px) {
+  .hospedagem_header {
+    background-position: center;
+  }
+
+  .form {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
