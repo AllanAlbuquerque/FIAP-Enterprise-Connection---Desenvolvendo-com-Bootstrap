@@ -1,1 +1,119 @@
-<h1>Restaurantes</h1>
+<header class="restaurante_header  d-flex justify-content-center align-items-center">
+  <form class="d-flex justify-content-between align-items-center form">
+
+    <input type="text" class="form-control local" placeholder="Onde você gostaria de comer? *"
+      aria-label="Para onde você gostaria de ir comer? *" required>
+
+
+    <input type="date" class="form-control date" placeholder="Data" aria-label="Data" required>
+    <button class="border border-0 btn_search">
+      <img src="../../images/search.svg" alt="icone de search">
+    </button>
+
+  </form>
+</header>
+
+<nav aria-label="breadcrumb" class="mt-3 ms-5">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" onclick="navToInicio()">Início</a></li>
+    <li class="breadcrumb-item active" id="destino-nome" aria-current="page">Restaurantes</li>
+  </ol>
+</nav>
+
+<h2 class="mb-4 text-center" id="carousel-heading">MELHORES RESTAURANTES DA REGIÃO</h2>
+
+
+<article class="hoteis-body">
+  <aside class="hotel-image">
+    <img src="../../images/restaurantes/restaurante-vertical.jpg" alt="Hotel">
+  </aside>
+  <section class="container-xxl">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/laguiole-lab.jpg" alt="img">
+            <h5 class="card-title">Laguiole Lab</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$60.00
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/cipriani.webp" alt="img">
+            <h5 class="card-title">Cipriani</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$100.00
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/olympe.jpg" alt="img">
+            <h5 class="card-title">Olympe</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$80.00
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/casa-da-mamma-niteroi.jpg" alt="img">
+            <h5 class="card-title">Mamma Jamma</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro </p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$120.00
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/Pobre-juan.webp" alt="img">
+            <h5 class="card-title">Pobre Juan</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$90.00
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <img class="card-img w-100 pb-2" src="../../images/restaurantes/teva.jpg" alt="img">
+            <h5 class="card-title">Teva</h5>
+            <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
+            <p class="card-text">Rio de Janeiro</p>
+          </div>
+          <div class="card-footer text-center">
+            A partir de R$50.00
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </section>
+</article>
+
+<link rel="stylesheet" href="./views/restaurantes/restaurantes.css">
+<script src="./views/restaurantes/restaurantes.js"></script>
