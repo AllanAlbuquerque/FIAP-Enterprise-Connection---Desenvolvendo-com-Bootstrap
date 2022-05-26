@@ -43,6 +43,9 @@
   .form-floating {
     width: 60%;
   }
+  .inicio-header {
+    background-position: center;
+  }
 }
 
 h2 {
