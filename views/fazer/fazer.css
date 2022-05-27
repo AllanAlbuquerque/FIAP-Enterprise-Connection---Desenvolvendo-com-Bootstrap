@@ -6,6 +6,7 @@
   background-image: url(../../images/caiaque.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  filter:grayscale(10%) opacity(90%);
 }
 
 .form {
@@ -80,5 +81,17 @@ h3 {
   .form {
     flex-direction: column;
     row-gap: 1rem;
+  }
+
+  h2 {
+    font-size: 130% !important;
+  }
+
+  h3 {
+    font-size: 150% !important;
+  }
+
+  .container-xxl {
+    margin-bottom: 2rem !important;
   }
 }

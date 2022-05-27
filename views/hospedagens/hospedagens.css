@@ -3,9 +3,10 @@
   flex-direction: column;
   align-items: center;
   height: 50vh;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../images/hospedagem.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../images/hospedagem\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  filter:opacity(90%);
 }
 
 .form {
@@ -35,6 +36,7 @@ input {
 
 .hoteis-body {
   margin: 5%;
+  margin-top: 2.5rem;
   display: flex;
 }
 
@@ -43,8 +45,10 @@ input {
 }
 
 .hotel-image img {
-  height: 100%;
+  height: 110%;
   object-fit: fill;
+  width: 80%;
+  filter:opacity(60%);
 }
 
 .card {
@@ -66,8 +70,10 @@ input {
 }
 
 h2 {
+  margin-top: 5rem;
   color: #2d97a1;
-  font-size: 26px;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 h3 {

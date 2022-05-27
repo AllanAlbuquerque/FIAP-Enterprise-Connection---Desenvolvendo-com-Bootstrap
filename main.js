@@ -12,7 +12,7 @@ function navToInicio(target) {
     target.classList.add('active');
   }
   navigateTo('./views/inicio/inicio.html');
-  title.text = ' Gulliver Traveller | inicio';
+  title.text = 'Início | Gulliver Traveller';
 }
 function navToFazer(target) {
   links.forEach((l) => l.classList.remove('active'));

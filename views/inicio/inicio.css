@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 .card {
   cursor: pointer;
 }
@@ -12,6 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 72vh;
+  filter: opacity(90%);
 }
 
 .form-floating > .form-control-plaintext ~ label,
@@ -46,6 +49,14 @@
   .inicio-header {
     background-position: center;
   }
+
+  h2 {
+    font-size: 130% !important;
+  }
+
+  h3 {
+    font-size: 150% !important;
+  }
 }
 
 h2 {
@@ -53,11 +64,11 @@ h2 {
   font-size: 26px;
 }
 
-h3 {
-  color: #fff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  margin-top: 1rem;
-  font-size: 35px;
-  font-weight: 800;
+h1 {
+  color: #d7e3d1;
   text-shadow: 2px 2px 2px #474747;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 500;
+  font-size: 200%;
+  letter-spacing: 0.7px;
 }

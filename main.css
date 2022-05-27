@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #557663 #cad9c3;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #cad9c3;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #557663;
+  border-radius: 20px;
+  border: 2px double #3b5446;
+}
+
 /*--footer--*/
 .rodape {
   height: 80px;
@@ -9,29 +31,45 @@ body {
   background-color: #f7fdf9;
 }
 
+::selection {
+  background: #3b5446;
+  color: rgb(255, 255, 255);
+}
+
+
 /*--  boostrap --*/
 :root {
-  --blue: #425d9e; /*! Gulliver Paleta -- SAN MARINO */
-  --green: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
-  --cyan: #2d97a1; /*! Gulliver Paleta -- CYAN TONE */
-  --primary: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
-  --secondary: #cad9c3; /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
-  --success: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
+  --blue: #425d9e;
+  /*! Gulliver Paleta -- SAN MARINO */
+  --green: #557663;
+  /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
+  --cyan: #2d97a1;
+  /*! Gulliver Paleta -- CYAN TONE */
+  --primary: #557663;
+  /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
+  --secondary: #cad9c3;
+  /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
+  --success: #557663;
+  /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
   --primary-shadow: #2b3d32;
-  --light: #edecd5; /*! Gulliver Paleta -- LIGHT SHADE OF YELLOW */
-  --bs-link-color: #557663; /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
-  --bs-link-hover-color: #27362d; /*! Gulliver Paleta -- SOMBRA PARA COLOR DARK-GREEN CYAN */
-  --bs-primary-rgb: 85, 118, 99; /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
+  --light: #edecd5;
+  /*! Gulliver Paleta -- LIGHT SHADE OF YELLOW */
+  --bs-link-color: #557663;
+  /*! Gulliver Paleta -- BASE COLOR DARK-GREEN CYAN */
+  --bs-link-hover-color: #27362d;
+  /*! Gulliver Paleta -- SOMBRA PARA COLOR DARK-GREEN CYAN */
+  --bs-primary-rgb: 85, 118, 99;
+  /*! Gulliver Paleta -- LIGHT SHADE OF GREEN */
   --btn-facebook: #4753bf;
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
+.navbar-nav .show>.nav-link {
   color: var(--primary-shadow);
 }
 
 .material-symbols-outlined {
-  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'48;
 }
 
 .nav-link {
@@ -58,4 +96,10 @@ footer {
 
 h5 {
   color: rgb(55, 55, 55);
+}
+
+
+.navbar-toggler {
+  background-color: #62856f !important;
+  border:#466653 1px solid !important;
 }
