@@ -41,11 +41,11 @@ input {
 }
 
 .hotel-image {
-  height: 85vh;
+  height: 709px;
 }
 
 .hotel-image img {
-  height: 110%;
+  height: 100%;
   object-fit: fill;
   width: 80%;
   filter:opacity(60%);
