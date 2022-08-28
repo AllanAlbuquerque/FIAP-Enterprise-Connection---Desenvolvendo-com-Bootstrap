@@ -76,6 +76,7 @@ const destinos = [
     title: 'Uma metrópole urbana movida pela cadência do samba',
     description: `Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro. Imortalizada em uma canção, a praia de Ipanema continua sendo o lugar perfeito para caminhar,  pegar um bronzeado e se exibir.`,
     imgDesc: './images/rj.jpg',
+    WOEID: '455825'
   },
   {
     id: 'gr',
@@ -84,6 +85,7 @@ const destinos = [
     title: 'Sobre Gramado',
     description: `A pequena cidade brasileira de Gramado é um refúgio pitoresco e verdejante que abriga algumas surpresas encantadoras. Depois de se divertir bastante nos pedalinhos e nos bosques de pinheiros da Floresta Negra em torno do Lago Negro, faça uma visita ao Snowland, o único parque de neve Indoor da América Latina. As crianças vão adorar o Mini Mundo, um parque de miniaturas que contém réplicas minúsculas de paisagens conhecidas.`,
     imgDesc: './images/gr.jpg',
+    WOEID: '457224'
   },
   {
     id: 'jr',
@@ -92,6 +94,7 @@ const destinos = [
     title: 'Sobre Jericoacoara',
     description: `Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro. Imortalizada em uma canção, a praia de Ipanema continua sendo o lugar perfeito para caminhar,  pegar um bronzeado e se exibir.`,
     imgDesc: './images/jr.jpg',
+    WOEID: '26803987'
   },
   {
     id: 'bg',
@@ -100,5 +103,6 @@ const destinos = [
     title: 'Sobre Baia dos Golfinhos',
     description: `Excelente para caminhada ou natação, mar calmo com apresença de Golfinhos, e poucas barracas incluindo escola de surf e aluguel de caiaques, pranchas e frescobol. A Praia do Curral, ou popularmente conhecida como Baia do Golfinhos, é ideal para quem quer um contato maior com esses mamíferos. Aqui eles são os donos da casa e costumam receber seus visitantes com saltos e acrobacias.`,
     imgDesc: './images/bg.jpg',
+    WOEID: '90200648'
   },
 ];
