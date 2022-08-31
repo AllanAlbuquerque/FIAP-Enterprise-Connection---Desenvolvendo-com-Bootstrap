@@ -44,3 +44,44 @@ async function setClima(WOEID) {
     divClima.appendChild(div);
   });
 }
+
+function buscarOfertaVoos() {
+  const todayISO = new Date().toISOString().split('T')[0];
+
+  var config = {
+    method: 'get',
+    url: `https://test.api.amadeus.com/v2/shopping/flight-offers?currencyCode=BRL&originLocationCode=GRU&destinationLocationCode=${destino.aeroporto}&departureDate=${todayISO}&adults=1&max=5`,
+    headers: {
+      Authorization: `Bearer ${amadeusAPI.token} `,
+    },
+  };
+
+  axios(config)
+    .then(function ({ data }) {
+      const voos = document.getElementById('voos');
+
+      data.data.forEach((voo) => {
+        const meuVoo = document.createElement('div');
+        const empresa = getEmpresa(voo.itineraries[0].segments[0].carrierCode);
+        document.getElementById('day').innerHTML = todayISO;
+
+        meuVoo.innerHTML = `
+        <div class="card" style="width: 18rem;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Empresa </strong> ${empresa}</li>
+            <li class="list-group-item"><strong>Último dia para comprar </strong> ${voo.lastTicketingDate}</li>
+            <li class="list-group-item"><strong>Quantidae de assentos </strong> ${voo.numberOfBookableSeats}</li>
+            <li class="list-group-item"><strong>Preço </strong> R$${voo.price.total}</li>
+          </ul>
+        </div>
+        `;
+
+        voos.appendChild(meuVoo);
+      });
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+}
+
+buscarOfertaVoos();
