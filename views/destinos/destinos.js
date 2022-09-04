@@ -26,6 +26,7 @@ document.getElementById('destino-nome').innerHTML = destino.name;
 document.getElementById('destino-titulo').innerHTML = destino.title;
 document.getElementById('destino-desc').innerHTML = destino.description;
 document.getElementById('destino-img').src = destino.imgDesc;
+document.getElementById('destinos_header').style.backgroundImage = `url('${destino.imgBack}')`;
 
 async function setClima(WOEID) {
   const response = await fetch(`https://api.hgbrasil.com/weather?format=json-cors&key=eeb69df6&woeid=${WOEID}`);

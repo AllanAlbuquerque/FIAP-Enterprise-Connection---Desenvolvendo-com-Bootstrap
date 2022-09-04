@@ -97,6 +97,7 @@ const destinos = [
     title: 'Uma metrópole urbana movida pela cadência do samba',
     description: `Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro. Imortalizada em uma canção, a praia de Ipanema continua sendo o lugar perfeito para caminhar,  pegar um bronzeado e se exibir.`,
     imgDesc: './images/rj.jpg',
+    imgBack: './images/rj_header.jpg',
     WOEID: '455825',
     aeroporto: 'RIO',
   },
