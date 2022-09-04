@@ -3,10 +3,12 @@
   flex-direction: column;
   align-items: center;
   height: 50vh;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../images/hospedagem\ \(1\).jpg);
+  background-image: url(../../images/hospedagem\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter:opacity(90%);
+  height: 100vh;
+  width: 100%;
+  margin-top: -10% !important;
 }
 
 .form {

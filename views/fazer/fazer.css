@@ -6,7 +6,11 @@
   background-image: url(../../images/caiaque.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter:grayscale(10%) opacity(90%);
+  height: 100vh;
+  width: 100%;
+  margin-top: -10% !important;
+  filter: opacity(100%);
+  z-index: 1;
 }
 
 .form {
@@ -52,7 +56,7 @@ h3 {
   color: #fff;
   font-family: 'Plus Jakarta Sans', sans-serif;
   margin-top: 1rem;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 800;
   text-shadow: 2px 2px 2px #474747;
 }

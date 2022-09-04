@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: #f7fdf9;
+  background-color: #e4f0e8;
 }
 
 ::selection {
@@ -63,9 +63,15 @@ body {
   --btn-facebook: #4753bf;
 }
 
+.navbar {
+  filter: opacity(90%) !important;
+z-index: 9999;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
-  color: var(--primary-shadow);
+  color: #658874;
+  font-weight: 900;
 }
 
 .material-symbols-outlined {
@@ -90,8 +96,9 @@ h2 {
 }
 
 footer {
+  background-color: #557663;
+  filter: opacity(70%);
   margin-top: 6rem !important;
-  color: #fff;
 }
 
 h5 {
