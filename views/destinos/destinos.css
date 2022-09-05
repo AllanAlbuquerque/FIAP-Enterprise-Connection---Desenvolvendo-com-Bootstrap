@@ -72,7 +72,6 @@ body {
   }
 
   #destino-img {
-    margin-left: 10%;
     margin-top: 1rem !important;
     width: 80%;
   }
@@ -84,13 +83,12 @@ body {
 
 .desc-text {
   margin-top: 3rem;
-  margin-left: 11rem;
   margin-right: 25px;
 }
 
 #destino-img {
   margin-top: 3rem;
-  width: 75%;
+  width: 100%;
 }
 
 .card {
@@ -120,3 +118,9 @@ ol {
   margin-top: 1.5rem;
 }
 
+.splide__arrow--prev{
+  left: -0.1px !important;
+}
+.splide__arrow--next{
+  right: -0.1px !important;
+}
