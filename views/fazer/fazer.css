@@ -54,7 +54,7 @@ h2 {
 
 h3 {
   color: #fff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 1rem;
   font-size: 30px;
   font-weight: 800;
@@ -98,4 +98,9 @@ h3 {
   .container-xxl {
     margin-bottom: 2rem !important;
   }
+}
+
+.card-img-top
+{
+  width: 100%;
 }

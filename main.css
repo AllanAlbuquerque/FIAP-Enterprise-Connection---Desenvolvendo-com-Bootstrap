@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
@@ -28,11 +29,11 @@
 }
 
 body {
-  background-color: #e4f0e8;
+  background-color: #d4e1ce;
 }
 
 ::selection {
-  background: #3b5446;
+  background: #4c6356ad;
   color: rgb(255, 255, 255);
 }
 
@@ -71,7 +72,7 @@ z-index: 9999;
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
   color: #658874;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .material-symbols-outlined {
@@ -79,8 +80,9 @@ z-index: 9999;
 }
 
 .nav-link {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
+  font-weight: 300;
   font-size: 20px;
   margin-left: 1rem;
 }
@@ -91,12 +93,18 @@ z-index: 9999;
 }
 
 h2 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background: #2DA193;
+background: linear-gradient(to right, #2DA193 0%, #557663 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 footer {
-  background-color: #557663;
+  color: rgb(27, 27, 27);
+  font-weight: 500;
+  background-color: #557663d5;
   filter: opacity(70%);
   margin-top: 6rem !important;
 }
