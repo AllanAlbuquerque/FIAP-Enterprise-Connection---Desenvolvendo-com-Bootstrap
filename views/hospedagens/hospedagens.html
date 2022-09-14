@@ -38,6 +38,13 @@
             <h5 class="card-title">Fairmont Rio de Janeiro Copacabana</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">Rio de Janeiro</p>
+            <button type="button" id="fairmont" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$1.170 a diària
@@ -51,6 +58,13 @@
             <h5 class="card-title">Hotel Colline de France</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">Gramado</p>
+            <button type="button" id="coline" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$1.495 a diària
@@ -64,6 +78,13 @@
             <h5 class="card-title">Bravaria Sport Hotel</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">Gramado</p>
+            <button type="button" id="bravaria" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$340 a diària
@@ -77,6 +98,13 @@
             <h5 class="card-title">Ort Hotel</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">Campos do Jordão</p>
+            <button type="button" id="ort" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$1.255 a diària
@@ -90,6 +118,13 @@
             <h5 class="card-title">Grand Hyatt São Paulo</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">São Paulo</p>
+            <button type="button" id="hyatt" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$798 a diària
@@ -103,6 +138,13 @@
             <h5 class="card-title">Miramar Hotel by Windsor</h5>
             <h6 class="card-subtitle mb-2 text-muted">★★★★★</h6>
             <p class="card-text">Rio de Janeiro</p>
+            <button type="button" id="windsor" class="btn btn-light btn-map d-flex" data-bs-toggle="modal"
+              data-bs-target="#modalLocalization">
+              <span class="material-symbols-outlined map">
+                location_on
+              </span>
+              Clique para ver no mapa
+            </button>
           </div>
           <div class="card-footer text-center">
             A partir de R$567 a diària
@@ -112,6 +154,20 @@
     </div>
   </section>
 </article>
+
+<div class="modal fade" id="modalLocalization" tabindex="-1" aria-labelledby="modalLocalization" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="localTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe id="gmap_canvas" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
 <link rel="stylesheet" href="./views/hospedagens/hospedagens.css">
 <script src="./views/hospedagens/hospedagens.js"></script>
